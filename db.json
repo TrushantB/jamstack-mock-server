@@ -1,87 +1,92 @@
 {
   "header": {
-    "logo": {
+    "logoUrl": {
       "url": "/Jamstack+.svg",
-      "alt": "jamstack logo"
+      "alt": "jamstack logo",
+      "herf" : "/"
     },
     "headerMenu": [
       { "label": "PRICING", "href": "pricing", "target": "_self" },
       { "label": "WEBJ", "href": "webj", "target": "_self" },
       { "label": "MOBJ", "href": "mobj", "target": "_self" },
       { "label": "ECOMMJ", "href": "ecommj", "target": "_self" },
-      { "label": "CONTACT US", "href": "contactus", "target": "_self" }
+      { "label": "CONTACT US", "href": "contact", "target": "_self" }
     ],
     "sidebarLink": [
-      { "label": "WHAT IS JAMSTACK", "href": "jamstack", "target": "_self" },
-      { "label": "OUR ECOSYSTEM", "href": "ourecosystem", "target": "_self" },
-      { "label": "ABOUT US", "href": "aboutus", "target": "_self" },
-      { "label": "CASE STUDIES", "href": "casestudy", "target": "_self" },
+      { "label": "WHAT IS JAMSTACK", "href": "know-Jamstack", "target": "_self" },
+      { "label": "OUR ECOSYSTEM", "href": "ecosystem", "target": "_self" },
+      { "label": "ABOUT US", "href": "about", "target": "_self" },
+      { "label": "CASE STUDIES", "href": "case-study", "target": "_self" },
       { "label": "BLOG", "href": "blog", "target": "_self" }
     ],
     "description": "Leading brand in enhancing the JAMstack to offer technical solutions to accelerate the phases of digital presence",
     "buttonLabel": {
       "label": "Lets Talk",
-      "href": "",
+      "href": "contact",
       "target": "_self"
     },
     "Contactlabel": "Contact Information",
-    "address": {
-      "phoneNumber": "+990-123-4567",
-      "email": "geexu@gmail.com",
-      "country": "India"
-    },
+    "phoneNumber": "+91 990-123-4567",
+    "email": "geexu@gmail.com",
+    "country": "India",
 
     "socialLink": [
-      { "iconName": "icon-mail", "href": "mail", "alt": "image" },
-      { "iconName": "icon-instagam", "href": "instagam", "alt": "image" },
-      { "iconName": "icon-whatsapp1", "href": "whatsapp", "alt": "image" },
-      { "iconName": "icon-facebook2", "href": "facebook", "alt": "image" },
-      { "iconName": "icon-twitter", "href": "twitter", "alt": "image" }
+      { "iconName": "icon-mail", "href": "https://mail.google.com/", "alt": "image" , "target": "_blank" },
+      { "iconName": "icon-instagam", "href": "https://www.instagram.com/", "alt": "image" ,"target": "_blank" },
+      { "iconName": "icon-whatsapp1", "href": "https://www.whatsapp.com/", "alt": "image" , "target": "_blank"},
+      { "iconName": "icon-facebook2", "href": "https://www.facebook.com/", "alt": "image", "target": "_blank" },
+      { "iconName": "icon-twitter", "href": "https://twitter.com/", "alt": "image", "target": "_blank" }
     ],
-    "hamburgerLogo" : {"url": "hamburgerLogo.svg",
-    "alt": "hamburgerLogo logo"},
-    "crossLogo" : {
+    "hamburgerLogo": "/Hamburger.png",
+    "hamburgerLogoalt": "Hamburger logo",
+    "crossLogo": {
       "url": "X",
       "alt": "crossLogo logo"
-    } 
+    }
   },
 
   "footer": {
-    "logo": {
+    "footerLogo": {
       "url": "/Jamstack+.svg",
-      "alt": "jamstack logo"
+      "alt": "jamstack logo",
+      "href" : "/"
     },
     "copyRight": "Jamstack 2023 ",
     "socialIcons": [
       {
         "icon": "icon-mail1",
-        "href": "mail",
-        "alt": "image"
+        "href": "https://mail.google.com/",
+        "alt": "image",
+        "target": "_blank"
       },
       {
-        "icon": "icon-instagram",
-        "href": "instagram",
-        "alt": "image"
+        "icon": "icon-instagam",
+        "href": "https://www.instagram.com/",
+        "alt": "image",
+        "target": "_blank"
       },
       {
         "icon": "icon-twitter",
-        "href": "twitter",
-        "alt": "image"
+        "href": "https://twitter.com/",
+        "alt": "image",
+        "target": "_blank"
       },
       {
         "icon": "icon-whatsapp1",
-        "href": "whatsapp",
-        "alt": "image"
+        "href": "https://www.whatsapp.com/",
+        "alt": "image",
+        "target": "_blank"
       },
       {
         "icon": "icon-facebook2",
-        "href": "facebook",
-        "alt": "image"
+        "href": "https://www.facebook.com/",
+        "alt": "image",
+        "target": "_blank"
       }
     ],
     "footerMenu": [
       { "label": "Ecosystem", "href": "ecosystem", "target": "_self" },
-      { "label": "Know Jamstack", "href": "knowJamstack", "target": "_self" },
+      { "label": "Know Jamstack", "href": "know-Jamstack", "target": "_self" },
       { "label": "Pricing", "href": "pricing", "target": "_self" },
 
       { "label": "EcommJ", "href": "ecommJ", "target": "_self" },
@@ -89,24 +94,24 @@
       { "label": "MobJ", "href": "mobj", "target": "_self" },
 
       { "label": "FAQ", "href": "faq", "target": "_self" },
-      { "label": "About us", "href": "aboutus", "target": "_self" },
+      { "label": "About us", "href": "about", "target": "_self" },
       { "label": "Blog", "href": "blog", "target": "_self" },
       { "label": "Contact", "href": "contact", "target": "_self" }
     ],
     "secondaryMenu": [
       {
         "label": "Terms and conditions",
-        "href": "termsandcondition",
+        "href": "terms-and-condition",
         "target": "_self"
       },
       {
         "label": "Security - GDPR, SOC",
-        "href": "Security",
+        "href": "security",
         "target": "_self"
       },
       {
         "label": "Privacy Policy",
-        "href": "PrivacyPolicy",
+        "href": "privacy-policy",
         "target": "_self"
       }
     ]
@@ -123,14 +128,20 @@
       "type": "primary",
       "label": "Start A Project",
       "size": "medium",
-      "layout": "Image Left"
+      "layout": "Image Left",
+      "href" : "contact"
     },
     "technologySolution": {
       "description": "The all-in-one modern technology solution that offers everything to accelerate your business across the digital platforms.",
       "heading": "Your one stop solution in web reality.",
+      "href" : "/",
       "logo": {
-        "url": "logo.svg",
-        "alt": "jamstack logo"
+        "url": "/Jamstack+.svg",
+        "alt": "Jamstack+.svg"
+      },
+      "lineIMage": {
+        "url": "https://github.com/MurtazaKp/Jamstack/blob/main/public/images/line-circle.png?raw=true",
+        "alt": "lineImage"
       }
     },
     "textBannerList": {
@@ -149,18 +160,18 @@
     "videoBanner": {
       "heading": "What is JAMstack?",
       "video": {
-        "Videolink": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "Videolink": "/strategy.mp4",
         "alt": "image"
       }
     },
     "textBanner": {
       "sliderControls": {
-        "dots": true,
+        "dots": false,
         "infinite": true,
         "speed": 500,
         "autoplaySpeed": 2500,
         "autoplay": true,
-        "arrows": true,
+        "arrows": false,
         "swipe": true
       },
       "info": [
@@ -184,16 +195,15 @@
     "Webstatstics": {
       "heading": "Know your webstatics",
       "description": "Check your website performance and check how Jamstack+ can help you improve your business.",
-        "placeholder" : "Paste website URL here",
-        "buttonLabel" : "Request Report",
-        "isButton" : true
+      "placeholder": "Paste website URL here",
+      "buttonLabel": "Request Report",
+      "isButton": true
     },
     "benefits": {
       "heading": "Benefits of working with us:",
       "benefitsList": [
         {
           "icon": "circle",
-
           "alt": "image",
           "heading": "Everything for everyone ",
           "description": "We cater from small businesses to big established businesses. We provide all kinds of solution right from planning to launch on any platform in web reality."
@@ -201,66 +211,64 @@
         {
           "icon": "diamond",
           "alt": "image",
-
           "heading": "Being Faster to deliver",
           "description": "Being faster to deliver - JAMstack provides fast development, and so do us too. Enhancing the features of JAMstack helps to build and complete projects on time."
         },
         {
           "icon": "pentagon",
           "alt": "image",
-
           "heading": "Wise experts",
           "description": "We are experts in what we do. Our team has hands on on the modern and trendy tools with great knowledge of choosing them wisely. We strictly follow a systematic agile process of working that yields in excellent, robust and world class projects."
         },
         {
           "icon": "diamond",
           "alt": "image",
-
           "heading": "Pocket friendly",
           "description": "With us it’s always a pocket friendly, time saving and easy to work. We do not exaggerate on costs and make it easy for everyone to provide awesome projects."
         }
       ]
     },
     "productCard": {
-      "heding": "Products we Create",
+      "heading": "Products we Create",
       "cards": [
         {
           "label": "webJ",
           "description": "The ultimate platform for building your future-proof web presence with modern technology. Get your blazing fast, highly scalable, traffic driven and well-equipped webJ today!",
           "buttonLabel": "Know More",
-          "href": "#"
+          "href": "webj"
         },
         {
           "label": "ecommJ",
           "description": "The modern e-commerce solution extended from webJ to upgrade your business. Accelerate your business with exceptional ecommJ today!",
           "buttonLabel": "Know More",
-          "href": "#"
+          "href": "ecommj"
         },
         {
           "label": "mobJ",
           "description": "Multi-platform yet single codebase mobile application. Get your innovative, unique, manageable and collaborative mobJ today!",
           "buttonLabel": "Know More",
-          "href": "#"
+          "href": "mobj"
         }
       ]
     },
     "ourClient": {
       "heading": "Technologies we work with:",
+      "href": "contact",
       "imageList": [
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" },
-        { "image": "placeHolder", "alt": "image" }
+        { "image": "/Adobe.png", "alt": "image" },
+        { "image": "/stripe.png", "alt": "image" },
+        { "image": "/netflix.png", "alt": "image" },
+        { "image": "/cbre.png", "alt": "image" },
+        { "image": "/mozilla.png", "alt": "image" },
+        { "image": "/okta.png", "alt": "image" },
+        { "image": "/opera.png", "alt": "image" },
+        { "image": "/oppo.png", "alt": "image" },
+        { "image": "/nbc.png", "alt": "image" },
+        { "image": "/turo.png", "alt": "image" },
+        { "image": "/clearbit.png", "alt": "image" },
+        { "image": "/crunchbase.png", "alt": "image" },
+        { "image": "/xero.png", "alt": "image" },
+        { "image": "/contact.png", "alt": "image" }
       ],
       "type": "primary",
       "label": "Explore Offerings",
@@ -277,7 +285,7 @@
       "itemList": [
         {
           "label": "Wise Experts",
-          "href": "",
+          "href": "wise-experts",
           "percentageList": [
             {
               "percentage": "120%",
@@ -295,7 +303,7 @@
         },
         {
           "label": "Logic Tales",
-          "href": "",
+          "href": "logic-tales",
           "percentageList": [
             {
               "percentage": "120%",
@@ -313,7 +321,7 @@
         },
         {
           "label": "Intercollab",
-          "href": "",
+          "href": "Intercollab",
           "percentageList": [
             {
               "percentage": "100%",
@@ -331,7 +339,7 @@
         },
         {
           "label": "Skype",
-          "href": "",
+          "href": "Skype",
           "percentageList": [
             {
               "percentage": "110%",
@@ -350,15 +358,15 @@
       ],
       "hasIcon": true,
       "label": "Read More",
-      "icon": "diamond"
+      "icon": "diamond",
+      "href" : "contact"
     },
     "morderTechnology": {
       "heading": "Excited to switch on modern technology?",
-      "Button": {
-        "type": "primary",
-        "label": "Start A Project",
-        "size": "medium"
-      }
+      "href" :"contact",
+      "type": "primary",
+      "label": "Start A Project",
+      "size": "medium"
     },
     "testimonialCard": {
       "heading": "We love our customers",
@@ -392,7 +400,7 @@
           "label": "Termgrid",
           "description": "Branding a whole new category of debt management.",
           "buttonLabel": "Read more",
-          "href": ""
+          "href": "blog"
         },
         {
           "image": "/Crisp.png",
@@ -400,7 +408,7 @@
           "label": "Crisp ",
           "description": "Designing a new mobile experience for the all-in-one messaging platform.",
           "buttonLabel": "Read more",
-          "href": ""
+          "href": "blog"
         },
         {
           "image": "/Ternary.png",
@@ -408,11 +416,12 @@
           "label": "Ternary",
           "description": "Creating a visual identity and product for FinOps cloud innovator.",
           "buttonLabel": "Read more",
-          "href": ""
+          "href": "blog"
         }
       ],
       "hasIcon": true,
       "label": "Read More"
+     
     }
   },
   "webj": {
