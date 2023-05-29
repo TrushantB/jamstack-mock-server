@@ -30,8 +30,8 @@
       "target": "_self"
     },
     "Contactlabel": "Contact Information",
-    "phoneNumber": "+91 990-123-4567",
-    "email": "geexu@gmail.com",
+    "phoneNumber": "+91 9130 036 036",
+    "email": "hello@jamstack.plus",
     "country": "India",
 
     "socialLink": [
@@ -544,9 +544,9 @@
               "id": "nextjs"
             },
             {
-              "name": "Angular",
+              "name": "NuxtJs",
               "icon": "icon-group",
-              "id": "angular"
+              "id": "nuxtjs"
             }
           ],
           "selected": []
