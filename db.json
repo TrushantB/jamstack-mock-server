@@ -1944,7 +1944,7 @@
       "heading": "Benefits of JAMSTACK:",
       "accordinaList": [
         {
-          "label": "Cost effective CDN use djfhsdjfhsdj",
+          "label": "Cost effective CDN use",
           "description": "Unlike sdfksdklfhsdlfhsdjfh monolithic architecture , JAMstack mobile apps are built with the combination of discrete parts to serve the purpose. This makes it easy to test and maintain. Also, being decoupled in services, if any component fails you don’t have to make changes to the entire app, you can only focus on fixing the faulty components without disturbing others.",
           "icon": "diamond",
           "image": "/jamstackOne.svg",
